@@ -1,0 +1,68 @@
+#rainbow-violet {
+  stroke-dasharray: 11214;
+  stroke-dashoffset: 11214;
+}
+
+#rainbow-violet {
+  animation: rainbow-offset 3s linear forwards;
+}
+
+#rainbow-indigo {
+  stroke-dasharray: 11214;
+  stroke-dashoffset: 11214;
+}
+
+#rainbow-indigo {
+  animation: rainbow-offset 3s linear forwards;
+}
+
+#rainbow-blue {
+  stroke-dasharray: 11214;
+  stroke-dashoffset: 11214;
+}
+
+#rainbow-blue {
+  animation: rainbow-offset 3s linear forwards;
+}
+
+#rainbow-green {
+  stroke-dasharray: 11214;
+  stroke-dashoffset: 11214;
+}
+
+#rainbow-green {
+  animation: rainbow-offset 3s linear forwards;
+}
+
+#rainbow-yellow {
+  stroke-dasharray: 11214;
+  stroke-dashoffset: 11214;
+}
+
+#rainbow-yellow {
+  animation: rainbow-offset 3s linear forwards;
+}
+
+#rainbow-orange {
+  stroke-dasharray: 11214;
+  stroke-dashoffset: 11214;
+}
+
+#rainbow-orange {
+  animation: rainbow-offset 3s linear forwards;
+}
+
+#rainbow-red {
+  stroke-dasharray: 11214;
+  stroke-dashoffset: 11214;
+}
+
+#rainbow-red {
+  animation: rainbow-offset 3s linear forwards;
+}
+
+@keyframes rainbow-offset {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
