@@ -1,5 +1,5 @@
 h1 {
-  font-family: "Unica one", sans-serif;
+  font-family: "Unica One", sans-serif;
   top: 150px;
   left: 100px;
   max-width: 450px;
@@ -12,6 +12,7 @@ h1 {
 }
 
 @keyframes appear {
+
   to {
     opacity: 1;
   }
@@ -60,6 +61,7 @@ h1 {
 }
 
 @keyframes rainbow-offset {
+
   to {
     stroke-dashoffset: 0;
   }
@@ -72,6 +74,7 @@ h1 {
 }
 
 @keyframes narwhal-animation {
+
   to {
     stroke-dashoffset: 0;
   }
