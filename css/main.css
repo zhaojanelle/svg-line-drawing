@@ -1,3 +1,14 @@
+h1 {
+  font-family: "Unica one";
+  top: 150px;
+  left: 100px;
+  max-width: 450px;
+  z-index: 1;
+  color: white;
+  font-size: 5rem;
+  line-height: 1.5;
+}
+
 #rainbow-violet {
   stroke-dasharray: 1918;
   stroke-dashoffset: 1918;
