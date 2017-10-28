@@ -7,6 +7,14 @@ h1 {
   color: white;
   font-size: 5rem;
   line-height: 1.5;
+  opacity: 0;
+  animation: appear 1s linear forwards;
+}
+
+@keyframes appear {
+  to {
+    opacity: 1;
+  }
 }
 
 #rainbow-violet {
@@ -98,11 +106,5 @@ h1 {
 }
 
 #narwhal-eye {
-  animation: eye-appear 1s linear forwards;
-}
-
-@keyframes eye-appear {
-  to {
-    opacity: 1;
-  }
+  animation: appear 1s linear forwards;
 }
