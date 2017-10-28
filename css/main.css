@@ -1,5 +1,5 @@
 h1 {
-  font-family: "Unica one";
+  font-family: "Unica one", sans-serif;
   top: 150px;
   left: 100px;
   max-width: 450px;
@@ -18,65 +18,44 @@ h1 {
 }
 
 #rainbow-violet {
-  stroke-dasharray: 1918;
-  stroke-dashoffset: 1918;
-}
-
-#rainbow-violet {
+  stroke-dasharray: 1918px;
+  stroke-dashoffset: 1918px;
   animation: rainbow-offset 1s linear forwards;
 }
 
 #rainbow-indigo {
-  stroke-dasharray: 1813;
-  stroke-dashoffset: 1813;
-}
-
-#rainbow-indigo {
+  stroke-dasharray: 1813px;
+  stroke-dashoffset: 1813px;
   animation: rainbow-offset 1s linear forwards;
 }
 
 #rainbow-blue {
-  stroke-dasharray: 1705;
-  stroke-dashoffset: 1705;
-}
-
-#rainbow-blue {
+  stroke-dasharray: 1705px;
+  stroke-dashoffset: 1705px;
   animation: rainbow-offset 1s linear forwards;
 }
 
 #rainbow-green {
-  stroke-dasharray: 1596;
-  stroke-dashoffset: 1596;
-}
-
-#rainbow-green {
+  stroke-dasharray: 1596px;
+  stroke-dashoffset: 1596px;
   animation: rainbow-offset 1s linear forwards;
 }
 
 #rainbow-yellow {
-  stroke-dasharray: 1483;
-  stroke-dashoffset: 1483;
-}
-
-#rainbow-yellow {
+  stroke-dasharray: 1483px;
+  stroke-dashoffset: 1483px;
   animation: rainbow-offset 1s linear forwards;
 }
 
 #rainbow-orange {
-  stroke-dasharray: 1366;
-  stroke-dashoffset: 1366;
-}
-
-#rainbow-orange {
+  stroke-dasharray: 1366px;
+  stroke-dashoffset: 1366px;
   animation: rainbow-offset 1s linear forwards;
 }
 
 #rainbow-red {
-  stroke-dasharray: 1243;
-  stroke-dashoffset: 1243;
-}
-
-#rainbow-red {
+  stroke-dasharray: 1243px;
+  stroke-dashoffset: 1243px;
   animation: rainbow-offset 1s linear forwards;
 }
 
@@ -87,11 +66,8 @@ h1 {
 }
 
 #narwhal-body {
-  stroke-dasharray: 1981;
-  stroke-dashoffset: 1981;
-}
-
-#narwhal-body {
+  stroke-dasharray: 1981px;
+  stroke-dashoffset: 1981px;
   animation: narwhal-animation 1s linear forwards;
 }
 
@@ -103,8 +79,5 @@ h1 {
 
 #narwhal-eye {
   opacity: 0;
-}
-
-#narwhal-eye {
   animation: appear 1s linear forwards;
 }
