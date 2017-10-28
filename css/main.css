@@ -81,3 +81,17 @@
     stroke-dashoffset: 0;
   }
 }
+
+#narwhal-eye {
+  opacity: 0;
+}
+
+#narwhal-eye {
+  animation: eye-appear 1s linear forwards;
+}
+
+@keyframes eye-appear {
+  to {
+    opacity: 1;
+  }
+}
